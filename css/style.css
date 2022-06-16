@@ -1,0 +1,434 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+
+}
+
+* {
+    /*border: 1px solid;*/
+}
+a {
+    text-decoration: none;
+}
+
+ul li a {
+	text-decoration: none;
+	font-family: Montserrat;
+	color: #000;
+}
+header.header-top {
+    background-color: white;
+    padding: 24px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+} 
+ ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-area {
+    text-align: right;
+}
+.top-button {
+    float: right;
+}
+
+.top-button ul {
+	display: flex;
+}
+.top-button button {
+    border: none;
+    background: #ffcc01;
+    padding: 0px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    margin: -8px 13px 0px 16px;
+}
+section.mobail-menu {
+    display: none;
+}
+
+.about-banner-ttt {
+    margin-top: 36px;
+    width: 100%;
+}
+
+.banner {
+    height: 550px;
+    position: relative;
+    width: 100%;
+    background: #3ba3bba6;
+}
+
+.about-banner {
+    position: absolute;
+    z-index: 99;
+    left: -33px;
+    top: 187px;
+}
+.submitt {
+    background-color: #ffcc01;
+    margin-left: -15px;
+    padding: 0px;
+    height: 54px;
+    width: 90px;
+    border-radius: 0px 6px 6px 0px;
+}
+form input {
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 3px;
+    padding: 15px;
+    width: 286px;
+}
+.banner::after {
+    content: "";
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.banner-info {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 999;
+    background-color: #ffcc01;
+    color: black;
+    width: 475px;
+    height: 51px;
+    text-align: center;
+    border-radius: 0px;
+}
+.banner-info li {
+    display: inline-block;
+}
+
+.banner-info i {
+    color: white;
+    padding: 17px;
+}
+
+/*about COMPAny*/
+/*about COMPAny*/
+
+
+.about-company {
+    padding: 30px 0 59px 0;
+}
+.company-info {
+    padding: 0px 41px 4px 0px;
+}
+.count-item {
+    height: 158px;
+    width: 100%;
+    background-color: #ebeaea;
+    text-align: center;
+    margin: 12px 0px 12px 0px;
+    border-radius: 2px;
+}
+.in-count {
+    padding: 40px;
+}
+
+.this-head {
+    padding: 28px 0px 50px 0px;
+}
+
+/*  about-real-estate is start    */
+
+.about-realestate {
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 1px 7px 2px #dddddd;
+}
+
+.about-real-estate {
+    background-color: #f6f5f4;
+    padding: 15px 0 100px 0;
+}
+.real-head {
+    padding: 41px 0 57px 0px;
+}
+
+.realestate {
+    padding: 15px 0px 12px 0px;
+}
+
+.reales-img {
+    height: 350px;
+    width: 100%;
+}
+.reales-img img {
+    height: 100%;
+    width: 100%;
+}
+.reales-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reales-icon ul li {
+    display: inline-block;
+}
+.reales-icon .comes {
+    font-size: 15px;
+    color: #98a4b6;
+    position: absolute;
+    margin: -23px 7px -15px 23px;
+}
+
+.reales-icon ul li i {
+    color: #cacaca;
+    padding: 8px 47px 2px 0px;
+}
+
+.reales-bottom {
+    padding: 16px 18px 5px 19px;
+    background-color: #ffffff;
+    height: 106px;
+    width: 100%;
+}
+.reales-bottom p {
+    color: #1f373d;
+}
+.reales-icon span p {
+    color: #ffcc01;
+    font-size: 21px;
+}
+
+
+.estate-button {
+    margin-top: 14px;
+}
+.estate-button button {
+    border: none;
+    background-color: white;
+    padding: 16px;
+    margin-left: 31px;
+    border-radius: 4px;
+}
+
+.button-2 {
+    float: right;
+    margin-right: 6px;
+}
+.left-pd {
+    padding: 9px 13px 0px 10px;
+}
+
+.estate-footer {
+    padding: 8px 0px 34px 0px;
+}
+
+.about-working-process {
+
+}
+.coollor {
+    background-color: #ffcc01;
+    color: fff8dd;
+}
+
+.work-content {
+    padding: 50px 8px 0px 57px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.work-content a {
+    /* color: white; */
+    margin-top: 12px;
+    padding-top: 22px;
+}
+
+.work-content a::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 108px;
+    background-color: black;
+    left: 52px;
+}
+
+.hidden {
+    position: absolute;
+    left: -15px;
+    top: -62px;
+}
+ .work-titel {
+    padding: 31px 0px 32px;
+}
+
+.hidden h1 {
+    font-size: 100px;
+}
+.service-titel {
+    margin: 50px 0px 45px 70px;
+}
+
+
+.work-item {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 4px 3px 9px 3px #f3eeee;
+    height: 300px;
+    width: 100%;
+}
+
+
+section.this-service-section {
+    padding: 21px 0px 40px 0px;
+}
+
+.services-img {
+    height: 100%;
+    width: 100%;
+}
+
+.service-img-box {
+    height: 430px;
+    width: 100%;
+    padding: 10px;
+}
+.service-info {
+    padding: 0px 8px 0px 24px;
+    font-size: 15px;
+}
+
+.service-info h5 {
+    padding: 8px 0px 0px 0px;
+}
+
+.services-img img {
+    height: 100%;
+    width: 100%;
+}
+.real-head p {
+    margin: 3px;
+}
+
+.real-head h2 {
+    font-size: 36px;
+}
+
+/*jhjhuhuhohoghfofafhA*/
+
+
+footer {
+    background-color: #1f373d;
+    color: white;
+    padding: 52px 0px 55px 0px;
+}
+
+
+section.about-add-section {
+    margin: 7px 0 100px 0;
+}
+
+.fotter-head {
+    margin-bottom: 52px;
+}
+.add-text h5 {
+    margin-bottom: 40px;
+}
+.add-box {
+    margin: 40px 0 40px 0;
+    height: 100%;
+    width: 100%;
+}
+.add-box .add-img {
+    height: 330px;
+}
+.add-box .add-img img {
+    height: 100%;
+    width: 100%;
+}
+.add-box .add-text {
+    margin: 60px 42px 10px 0px;
+    line-height: 33px;
+}
+.add-text.right-pd {
+    padding: 44px  2px 0px 50px;
+}
+
+.img-button {
+    position: relative;
+    bottom: 31px;
+    text-align: center;
+}
+.img-button i {
+    color: white;
+    padding: 0px 8px 0px 0;
+}
+.img-button button {
+    border: none;
+    background-color: #ffcc01;
+    padding: 10px;
+    width: 330px;
+    border-radius: 2px;
+    height: 49px;
+}
+.text-button {
+    margin-left: 50px;
+}
+
+.text-button button {
+    border: none;
+    background-color: #1f373d;
+    color: white;
+    padding: 16px;
+    width: 240px;
+    /* height: 80px; */
+}
+.footer-logo {
+
+}
+footer img {
+    background-color: white;
+    padding: 6px;
+}
+.footer-form {
+    text-align: right;
+    margin-top: 17px;
+    position: relative;
+}
+.footer-form form i {
+    position: absolute;
+    top: 14px;
+    color: black;
+    right: 13px;
+    font-size: 28px;
+}
+
+.footer-form form input {
+    width:100%;
+    background-color: white;
+    color: black;
+}
+.itcous {
+    color: silver;
+    margin-bottom: 23px;
+}
+.itcod {
+    margin-top: 51px;
+}
+.fotter-head::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 90%;
+    left: 65px;
+    background-color: #8290a2;
+}
